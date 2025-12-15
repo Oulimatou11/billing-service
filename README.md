@@ -33,13 +33,13 @@ http://localhost:8081/swagger-ui/index.html
 
 ## Documentation API
 ### La documentation OpenAPI est disponible :
--via Swagger UI
--via le fichier openapi.json à la racine du projet
+#### via Swagger UI
+#### via le fichier openapi.json à la racine du projet
 
 ## ENDPOINTS
--POST /invoices
--GET /invoices/{id}
--GET /clients/{clientId}/invoices
--PUT /invoices/{id}/pay
--GET /clients/{clientId}/total
--GET /invoices/pending?days=15
+#### POST /invoices
+#### GET /invoices/{id}
+#### GET /clients/{clientId}/invoices
+#### PUT /invoices/{id}/pay
+#### GET /clients/{clientId}/total
+#### GET /invoices/pending?days=15
